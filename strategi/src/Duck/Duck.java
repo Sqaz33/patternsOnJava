@@ -1,6 +1,6 @@
-package strategy.Duck;
-import strategy.FlyBehavior.*;
-import strategy.QuackBehavior.*;
+package Duck;
+import FlyBehavior.*;
+import QuackBehavior.*;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;
@@ -27,9 +27,4 @@ public abstract class Duck {
         quackBehavior = qb;
     }
 
-    public void swim() {
-        System.out.println("All ducks float, even decoys!");
-    }
 }
-
-

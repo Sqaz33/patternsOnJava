@@ -1,6 +1,6 @@
-package strategy.Duck;
-import strategy.FlyBehavior.*;
-import strategy.QuackBehavior.*;
+package Duck;
+import FlyBehavior.*;
+import QuackBehavior.*;
 
 
 public class ModelDuck extends Duck {

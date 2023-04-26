@@ -1,4 +1,4 @@
-package strategy.FlyBehavior;
+package FlyBehavior;
 
 
 public class FlyRocketPowered implements FlyBehavior{
